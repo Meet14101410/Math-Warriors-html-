@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math Warriors</title>
+</head>
+<body>
+
+  <h1>⚔️ Math Warriors ⚔️</h1>
+  <p>Solve math problems and become the champion!</p>
+
+  <button onclick="startGame()">Start Game</button>
+
+  <script>
+    function startGame() {
+      let answer = prompt("What is 8 + 5 ?");
+      
+      if(answer == 13){
+        alert("Correct! You are a Math Warrior!");
+      } else {
+        alert("Wrong answer! Try again.");
+      }
+    }
+  </script>
+
+</body>
+</html>
