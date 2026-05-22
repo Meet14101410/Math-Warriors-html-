@@ -1,0 +1,12 @@
+function startGame() {
+  let num1 = Math.floor(Math.random() * 10);
+  let num2 = Math.floor(Math.random() * 10);
+
+  let answer = prompt(`What is ${num1} + ${num2} ?`);
+
+  if (answer == num1 + num2) {
+    alert("⚔️ Correct! You are a Math Warrior!");
+  } else {
+    alert("❌ Wrong! Correct answer is " + (num1 + num2));
+  }
+}
